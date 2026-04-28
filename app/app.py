@@ -43,4 +43,3 @@ if uploaded_file is not None:
     predicted_class = class_names[np.argmax(prediction)]
 
     st.success(f"Predicted Disease: {predicted_class}")
-
