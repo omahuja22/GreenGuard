@@ -44,4 +44,3 @@ if uploaded_file is not None:
 
     st.success(f"Predicted Disease: {predicted_class}")
 
-    
